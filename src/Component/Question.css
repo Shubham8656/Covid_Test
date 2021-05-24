@@ -1,0 +1,19 @@
+.Container{
+    /* background-color: black; */
+    width: 80%;
+    /* margin: auto; */
+    margin: 10% auto ;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* border: 5px solid blueviolet; */
+}
+.option{
+    margin: 1%;
+}
+a{
+    width: 100%;
+}
