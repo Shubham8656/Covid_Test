@@ -21,7 +21,8 @@ const rootReducer = (state=initialState,action) => {
         case 'SET_TO_INITIAL':
             return{
             ...state,
-            count:0
+            count:0,
+            positive:0
         }
         default:
             return state
