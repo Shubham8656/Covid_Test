@@ -10,7 +10,7 @@ function Home(){
         <h1 style={{color:'green',fontFamily:'arial'}}>Welcome Dear</h1>
         <br/>
         <h5 style={{color:'blue',fontFamily:'arial'}}>Please assess yourself against <div style={{color:'red'}}><strong><i>covid</i></strong></div></h5>
-        <img src={c1} style={{width:'20%'}}></img>
+        <img src={c1} alt='' style={{width:'20%'}}></img>
         <br/>
         <h5 style={{fontFamily:'arial'}}>To help india fight against the pandemic I have designed the covid self assessment. Your responses help to assess yourself against covid (approximately)</h5>
         <br/>
