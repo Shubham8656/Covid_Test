@@ -22,7 +22,7 @@ function Question(props) {
       setResult('You seems to have strong symtomps of covid positive. Please test yourself at your nearby covid center as soon as possible')
       setColor('red')
     }
-    else if(props.positive>3)
+    else if(props.positive>=3)
     {
       setResult('You seems to have mild syptomps of covid, Still if you feel unsafe please test yourself for covid test')
       setColor('orange')
